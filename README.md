@@ -9,4 +9,6 @@ Problem:
 
 Solution:
 
-Screenshots not uploaded yet because some don't work on the computer's emulator. All work on my phone's emulator, but am in an extreme time crunch. Will update upon project completion.
+Screenshots not uploaded yet because some System Receivers don't work on the computer's emulator. All work on my phone's emulator, but am in an extreme time crunch. Will update upon project completion.
+
+So far number one is complete and number two is getting near completion (I would think). I plan on working more on this in the next day.
