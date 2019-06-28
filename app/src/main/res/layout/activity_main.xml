@@ -55,4 +55,12 @@
         app:layout_constraintRight_toRightOf="parent"
         />
 
+    <Button
+        android:onClick="onClickToForegroundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="To Foreground Service Activity"
+        app:layout_constraintTop_toBottomOf="@+id/tvBluetooth"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

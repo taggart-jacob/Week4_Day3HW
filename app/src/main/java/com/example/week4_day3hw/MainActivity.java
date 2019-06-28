@@ -10,6 +10,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -113,5 +114,9 @@ public class MainActivity extends AppCompatActivity {
 
     private  static boolean isBTOn(Context context){
         return Settings.Global.getInt(context.getContentResolver(), Settings.Global.BLUETOOTH_ON, 0) != 0;
+    }
+
+    public void onClickToForegroundService(View view) {
+        startActivity(new Intent(view.getContext(), ForegroundMusicActivity.class));
     }
 }
